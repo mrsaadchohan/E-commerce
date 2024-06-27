@@ -21,7 +21,7 @@ import BagClient from "./BagClient";
   return (
     <div className="">
       <BagClient/>
-      <Authserver/>
+      <Authserver />
     </div>
   )
 }

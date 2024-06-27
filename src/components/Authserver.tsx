@@ -10,7 +10,7 @@ async function Authserver() {
   const user= await getUser();
     return (
     <div>
-               <div className="flex gap-4">
+               <div className="">
           {user ?(
            <UserNav name={user.given_name as string} email={user.email as string} 
            userImage={user.picture}/>        
